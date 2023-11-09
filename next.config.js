@@ -6,7 +6,7 @@ const nextConfig = {
 
   reactStrictMode: true,
   swcMinify: true,
-
+  output: 'export',
   // domain whitelist
   images: {
     domains: [
