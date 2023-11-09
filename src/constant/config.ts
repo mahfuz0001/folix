@@ -1,7 +1,6 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Folix - Experience The Joy of Reading',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+    'Folix is your digital gateway to a world of captivating stories. Discover a curated collection of books, from timeless classics to contemporary bestsellers, and experience the joy of reading with ease.',
+  url: 'https://folix.me',
 };
