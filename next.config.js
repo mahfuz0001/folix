@@ -6,13 +6,14 @@ const nextConfig = {
 
   reactStrictMode: true,
   swcMinify: true,
+  output: exports,
 
-  // Uncoment to add domain whitelist
-  // images: {
-  //   domains: [
-  //     'res.cloudinary.com',
-  //   ],
-  // },
+  // domain whitelist
+  images: {
+    domains: [
+      'res.cloudinary.com',
+    ],
+  },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
